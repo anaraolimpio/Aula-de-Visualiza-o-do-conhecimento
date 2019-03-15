@@ -13,7 +13,8 @@
       <p><a href="lineghaph.html">Exemplo de gráfico de círculos</a></p>
       <p><a href="piechart.html">Exemplo de gráfico de torta</a></p>
 
-      #include file="baschart.html" 
+     <iframe src="baschart.html" style="height:200px;width:300px;"></iframe> 
 
+     
    </body>
 </html>
