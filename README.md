@@ -15,8 +15,10 @@
         <p><a href="circlechart.html">Exemplo de gráfico de setores</a></p>
         <p><a href="linegraph.html">Exemplo de gráfico de círculos</a></p>
         <p><a href="piechart.html">Exemplo de gráfico de torta</a></p>
+        <p><frame src="barchart.html"></frame></p>
 
 
+       
 
      
    </body>
