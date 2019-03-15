@@ -1,0 +1,172 @@
+C:\Users\anara>cd\
+
+C:\>dir/s java.exe
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 3C3C-A144
+
+ Pasta de C:\Program Files (x86)\Java\jre1.8.0_161\bin
+
+28/03/2018  13:24           191.040 java.exe
+               1 arquivo(s)        191.040 bytes
+
+ Pasta de C:\ProgramData\Oracle\Java\javapath
+
+28/03/2018  13:24           191.040 java.exe
+               1 arquivo(s)        191.040 bytes
+
+ Pasta de C:\ProgramData\Oracle\Java\javapath_target_3717697187
+
+28/03/2018  13:24           191.040 java.exe
+               1 arquivo(s)        191.040 bytes
+
+ Pasta de C:\Users\All Users\Oracle\Java\javapath
+
+28/03/2018  13:24           191.040 java.exe
+               1 arquivo(s)        191.040 bytes
+
+ Pasta de C:\Users\All Users\Oracle\Java\javapath_target_3717697187
+
+28/03/2018  13:24           191.040 java.exe
+               1 arquivo(s)        191.040 bytes
+
+C:\>
+C:\>path=%path%;"C:\Program Files (x86)\Java\jre1.8.0_161\bin"
+
+C:\>java
+Uso: java [-options] class [args...]
+           (para executar uma classe)
+   ou  java [-options] -jar jarfile [args...]
+           (para executar um arquivo jar)
+em que as opções incluem:
+    -d32          usar um modelo de dados de 32 bits, se estiver disponível
+    -d64          usar um modelo de dados de 64 bits, se estiver disponível
+    -client       para selecionar a VM "client"
+    -server       para selecionar a VM "server"
+                  A VM padrão é client.
+
+    -cp <caminho de pesquisa da classe dos diretórios e arquivos zip/jar>
+    -classpath <caminho de pesquisa da classe dos diretórios e arquivos zip/jar>
+                  Uma lista separada por ; de diretórios, arquivos compactados JAR
+                  e arquivos compactados ZIP nos quais serão procurados os arquivos de classe.
+    -D<nome>=<valor>
+                  define uma propriedade do sistema
+    -verbose:[class|gc|jni]
+                  ativa a saída detalhada
+    -version      imprime a versão do produto e sai do programa
+    -version:<valor>
+                  Advertência: esta funcionalidade está obsoleta e será removida
+                  em uma release futura.
+                  requer a execução da versão especificada
+    -showversion  imprime a versão do produto e continua
+    -jre-restrict-search | -no-jre-restrict-search
+                  Advertência: esta funcionalidade está obsoleta e será removida
+                  em uma release futura.
+                  inclui/exclui JREs privados do usuário na pesquisa de versão
+    -? -help      imprime esta mensagem de ajuda
+    -X            imprime a ajuda sobre opções não padronizadas
+    -ea[:<nome do pacote>...|:<nome da classe>]
+    -enableassertions[:<nome do pacote>...|:<nome da classe>]
+                  ativa asserções com granularidade especificada
+    -da[:<nome do pacote>...|:<nome da classe>]
+    -disableassertions[:<nome do pacote>...|:<nome da classe>]
+                  desativa asserções com granularidade especificada
+    -esa | -enablesystemassertions
+                  ativa asserções do sistema
+    -dsa | -disablesystemassertions
+                  desativa asserções do sistema
+    -agentlib:<nome da biblioteca>[=<opções>]
+                  carrega a biblioteca de agentes nativa <nome da biblioteca>, por exemplo: -agentlib:hprof
+                  consulte também: -agentlib:jdwp=help e -agentlib:hprof=help
+    -agentpath:<nome do caminho>[=<opções>]
+                  carrega a biblioteca de agentes nativa com base no nome do caminho completo
+    -javaagent:<caminho do arquivo jar>[=<opções>]
+                  carrega o agente da linguagem de programação Java; consulte java.lang.instrument
+    -splash:<caminho da imagem>
+                  mostra a tela de abertura com a imagem especificada
+Consulte http://www.oracle.com/technetwork/java/javase/documentation/index.html para obter mais detalhes.
+
+C:\>cd Downloads
+O sistema não pode encontrar o caminho especificado.
+
+C:\>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 3C3C-A144
+
+ Pasta de C:\
+
+28/03/2018  13:28    <DIR>          Arquivos de Programas RFB
+12/11/2018  11:12    <DIR>          BB
+10/09/2018  22:45    <DIR>          CheckPoint
+11/04/2018  20:38    <DIR>          PerfLogs
+31/12/2018  18:54    <DIR>          Program Files
+31/12/2018  18:54    <DIR>          Program Files (x86)
+09/08/2018  19:57         1.330.178 trac_msi.log
+27/08/2018  18:00    <DIR>          Users
+17/02/2019  18:34    <DIR>          Windows
+               1 arquivo(s)      1.330.178 bytes
+               8 pasta(s)   929.493.819.392 bytes disponíveis
+
+C:\>cd Users
+
+C:\Users>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 3C3C-A144
+
+ Pasta de C:\Users
+
+27/08/2018  18:00    <DIR>          .
+27/08/2018  18:00    <DIR>          ..
+15/11/2018  13:24    <DIR>          anara
+27/08/2018  17:54    <DIR>          Public
+               0 arquivo(s)              0 bytes
+               4 pasta(s)   929.493.819.392 bytes disponíveis
+
+C:\Users>cd anara
+
+C:\Users\anara>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 3C3C-A144
+
+ Pasta de C:\Users\anara
+
+15/11/2018  13:24    <DIR>          .
+15/11/2018  13:24    <DIR>          ..
+20/08/2018  21:17    <DIR>          .anaconda
+19/10/2018  22:38    <DIR>          .conda
+15/11/2018  20:32                43 .condarc
+15/11/2018  13:24    <DIR>          .ipynb_checkpoints
+20/08/2018  21:28    <DIR>          .ipython
+20/08/2018  22:39    <DIR>          .jupyter
+17/10/2018  19:44    <DIR>          .keras
+20/08/2018  21:29    <DIR>          .matplotlib
+26/04/2018  16:59    <DIR>          .receitanet
+28/03/2018  14:03    <DIR>          .rfb
+20/08/2018  22:31    <DIR>          .spyder-py3
+26/12/2018  07:23    <DIR>          3D Objects
+15/11/2018  15:40    <DIR>          Anaconda3
+26/12/2018  07:23    <DIR>          Contacts
+14/01/2019  08:33    <DIR>          Desktop
+18/02/2019  19:24    <DIR>          Documents
+21/02/2019  20:00    <DIR>          Downloads
+26/12/2018  07:23    <DIR>          Favorites
+26/12/2018  07:23    <DIR>          Links
+26/12/2018  07:23    <DIR>          Music
+16/02/2019  14:58    <DIR>          OneDrive
+26/12/2018  07:23    <DIR>          Pictures
+26/12/2018  07:23    <DIR>          Saved Games
+26/12/2018  07:23    <DIR>          Searches
+16/10/2018  21:35             1.433 Untitled.ipynb
+17/10/2018  19:45             1.121 Untitled1.ipynb
+17/10/2018  23:38                72 Untitled2.ipynb
+10/11/2018  21:13             1.169 Untitled3.ipynb
+26/12/2018  07:23    <DIR>          Videos
+               5 arquivo(s)          3.838 bytes
+              26 pasta(s)   929.493.819.392 bytes disponíveis
+
+C:\Users\anara>cd Downloads
+
+C:\Users\anara\Downloads>dir
+ O volume na unidade C é Acer
+ O Número de Série do Volume é 3C3C-A144
+
+ Pasta de C:\Users\anara\Downloads
